@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Margarine&family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Joti+One&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+
+}
+.cabecalho{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 24px;
+}
+.cabecalho-imagem{
+  height: 72px;
+}
+.cabecalho-menu{
+  display: flex;
+  gap: 32px;
+
+}
+.cabecalho-menu-item{
+  font-family: 'Spicy Rice', serif;
+  color: aliceblue;
+  font-weight: 400;
+  font-size: 18px;
+}
+.conteudo{
+  margin-bottom: 48px;
+  border-top: 0.4px  solid  aliceblue;
+
+}
+
+
+.conteudo-principal-escrito{
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  
+}
+.conteudo-principal-escrito-titulo{
+    font-family: 'Spicy Rice', serif;
+    font-weight: 400;
+    font-size: 80px;
+    color: #000000;  
+}
+
+.conteudo-principal-escrito-subtitulo {
+  font-family: 'Joti One', serif;
+    font-size: 32px;
+  color: aliceblue;
+
+ }
+ .conteudo-principal-imagem {
+    height: 600px;
+    
+  }
+
+.rodape{
+  padding: 32px;
+  border-top: 0.4px solid white;
+}
+.rodape-imagem{
+  height: 80px;
+  display: block;
+  margin: 0 auto;
+}
